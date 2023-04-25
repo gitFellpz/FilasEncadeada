@@ -1,9 +1,9 @@
-package exercicio3;
+package exercicios;
 
 import java.util.Scanner;
 import filas.FilaString;
 
-public class AtendeAluno {
+public class Ex3AtendeAluno {
 
 	public static void main(String[] args) {
 

@@ -1,4 +1,4 @@
-package exe1;
+package exercicios;
 import java.util.Scanner;
 
 import filas.FilaInt;
