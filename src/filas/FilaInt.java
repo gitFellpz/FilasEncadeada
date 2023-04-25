@@ -43,4 +43,8 @@ public class FilaInt {
 		
 		return valor;
 	}
+	
+	public int first() {
+		return ini.dado;
+	}
 }
