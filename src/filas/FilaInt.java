@@ -18,6 +18,19 @@ public class FilaInt {
 			return true;
 		else
 			return false;
+	}
+	
+	public void enqueue(int elem) {
+		//Alocando NO na variável novo
+		NO novo = new  NO();
+		novo.dado = elem;
+		novo.prox = null;
 		
+		if(isEmpty())
+			ini = novo;
+		else
+			fim.prox = novo;
+		
+		fim = novo;
 	}
 }
