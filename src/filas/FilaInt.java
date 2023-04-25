@@ -9,4 +9,15 @@ public class FilaInt {
 	
 	private NO ini, fim;
 	
+	public void init() {
+		ini = fim = null;
+	}
+	
+	public boolean isEmpty() {
+		if(ini == fim && fim==null) 
+			return true;
+		else
+			return false;
+		
+	}
 }
