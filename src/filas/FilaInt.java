@@ -33,4 +33,14 @@ public class FilaInt {
 		
 		fim = novo;
 	}
+	
+	public int dequeue() {
+		int valor = ini.dado;
+		ini = ini.prox;
+		
+		if(ini == null)
+			fim = null;
+		
+		return valor;
+	}
 }
